@@ -73,6 +73,37 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     }
 			api.sendMessage(msg, threadID, messageID);
 		}
+	if (event.body.indexOf("Bwisit")==0 || (event.body.indexOf("Bwiset")==0 || (event.body.indexOf("Nakakaines")==0 || (event.body.indexOf("Nakakainis")==0)))) {
+		var msg = {
+				body: "Anong nakakabwisit, aber? 😒"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("tru")==0 || (event.body.indexOf("Tru")==0 || (event.body.indexOf("tru be")==0 || (event.body.indexOf("true")==0)))) {
+		var msg = {
+				body: "Trulalu ey 😂😒"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("Sorry")==0 || (event.body.indexOf("Sorry na")==0 || (event.body.indexOf("Sori")==0 || (event.body.indexOf("sorry")==0)))) {
+		var msg = {
+				body: "Sorry is not enough, Akala mo nakakatuwa ? 😏"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("Salamat")==0 || (event.body.indexOf("salamat")==0 || (event.body.indexOf("Salamat boss")==0 || (event.body.indexOf("Salamat pre")==0)))) {
+		var msg = {
+				body: "You are very welcome. Ferson 😒"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("Ayoko pumasok")==0 || (event.body.indexOf("Pumasok")==0 || (event.body.indexOf("Wag na pumasok")==0 || (event.body.indexOf("Wag na")==0)))) {
+		var msg = {
+				body: "Wag kana pumasok boss. HAHAHAH 😂"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	
 
 
 
