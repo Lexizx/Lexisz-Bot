@@ -13,99 +13,99 @@ module.exports.config = {
 };
 const nam = [{
     timer: '12:00:00 AM',
-    message: ['Hey, Good afternoon, it is 8:00 am, I hope you are doing very well.😙']
+    message: ['Hey, Good afternoon, it is 2:00 am, I hope you are doing very well.😙']
 },
              {
     timer: '1:00:00 AM',
-    message: ['Hey, Good afternoon, it is 9:00 am, I hope you are doing very well.🤟']
+    message: ['Hey, Good afternoon, it is 3:00 am, I hope you are doing very well.🤟']
 },
 						{
     timer: '2:00:00 AM',
-    message: ['Hey, Good afternoon, it is 10:00 am, I hope you are doing very well.😾']
+    message: ['Hey, Good afternoon, it is 4:00 am, I hope you are doing very well.😾']
 },
 						 {
     timer: '3:00:00 AM',
-    message: ['Hey, Good afternoon, it is 11:00 am, I hope you are doing very well.🫠🫠।']
+    message: ['Hey, Good afternoon, it is 5:00 am, I hope you are doing very well.🫠🫠।']
 },
 						 {
     timer: '4:00:00 AM',
-    message: ['Hey, Good afternoon, it is 12:00 pm, I hope you are doing very well.  ']
+    message: ['Hey, Good afternoon, it is 6:00 am, I hope you are doing very well.  ']
 },
 						 {
     timer: '5:00:00 AM',
-    message: ['Hey, Good afternoon, it is 1:00 pm, I hope you are doing very well. ']
+    message: ['Hey, Good afternoon, it is 7:00 am, I hope you are doing very well. ']
 },
 						 {
     timer: '6:00:00 AM',
-    message: ['Hey, Good afternoon, it is 2:00 pm, I hope you are doing very well.❤️  ']
+    message: ['Hey, Good afternoon, it is 8:00 am, I hope you are doing very well.❤️  ']
 },
 						 {
     timer: '7:00:00 AM',
-    message: ['Hey, Good afternoon, it is 3:00 pm, I hope you are doing very well.  ']
+    message: ['Hey, Good afternoon, it is 9:00 am, I hope you are doing very well.  ']
 },
 						 {
     timer: '8:00:00 AM',
-    message: ['Hey, Good afternoon, it is 4:00 pm, I hope you are doing very well. 😊 ']
+    message: ['Hey, Good afternoon, it is 10:00 am, I hope you are doing very well. 😊 ']
 },
 						 {
     timer: '9:00:00 AM',
-    message: ['Hey, Good afternoon, it is 5:00 pm, I hope you are doing very well. 😊']
+    message: ['Hey, Good afternoon, it is 11:00 am, I hope you are doing very well. 😊']
 },
              {
     timer: '10:00:00 AM',
-    message: ['Hey, Good afternoon, it is 6:00 pm, I hope you are doing very well. 😊❤️' ]
+    message: ['Hey, Good afternoon, it is 12:00 pm, I hope you are doing very well. 😊❤️' ]
 },
 						 {
     timer: '11:00:00 AM',
-    message: ['Hey, Good afternoon, it is 7:00 pm, I hope you are doing very well. 😊']
+    message: ['Hey, Good afternoon, it is 1:00 pm, I hope you are doing very well. 😊']
 },
 						 {
     timer: '12:00:00 PM',
-    message: ['Hey, Good afternoon, it is 8:00 pm, I hope you are doing very well. 😊']
+    message: ['Hey, Good afternoon, it is 2:00 pm, I hope you are doing very well. 😊']
 },					
 						 {
     timer: '1:00:00 PM',
-    message: ['Hey, Good afternoon, it is 9:00 pm, I hope you are doing very well. 😊❤️ ']
+    message: ['Hey, Good afternoon, it is 3:00 pm, I hope you are doing very well. 😊❤️ ']
 },
 						 {
     timer: '2:00:00 PM',
-    message: ['Hey, Good afternoon, it is 10:00 pm, I hope you are doing very well. 😊😻 ']
+    message: ['Hey, Good afternoon, it is 4:00 pm, I hope you are doing very well. 😊😻 ']
 },
 						 {
     timer: '3:00:00 PM',
-    message: ['Hey, Good afternoon, it is 11:00 pm, I hope you are doing very well. 😊']
+    message: ['Hey, Good afternoon, it is 5:00 pm, I hope you are doing very well. 😊']
 },
 						 {
     timer: '4:00:00 PM',
-    message: ['Hey, Good afternoon, it is 12:00 am, I hope you are doing very well. 😊❤️']
+    message: ['Hey, Good afternoon, it is 6:00 pm, I hope you are doing very well. 😊❤️']
 },
 						{
     timer: '5:00:00 PM',
-    message: ['Hey, Good afternoon, it is 1:00 am, I hope you are doing very well. 😊🥀 ']
+    message: ['Hey, Good afternoon, it is 7:00 pm, I hope you are doing very well. 😊🥀 ']
 },
 						 {
     timer: '6:00:00 PM',
-    message: ['Hey, Good afternoon, it is 2:00 am, I hope you are doing very well. 😊😻']
+    message: ['Hey, Good afternoon, it is 8:00 pm, I hope you are doing very well. 😊😻']
 },
 						 {
     timer: '7:00:00 PM',
-    message: ['Hey, Good afternoon, it is 3:00 am, I hope you are doing very well.😍. ']
+    message: ['Hey, Good afternoon, it is 9:00 pm, I hope you are doing very well.😍. ']
 },
              {
     timer: '8:00:00 PM',
-    message: ['Hey, Good afternoon, it is 4:00 am, I hope you are doing very well.❤️']
+    message: ['Hey, Good afternoon, it is 10:00 pm, I hope you are doing very well.❤️']
 },
              {
     timer: '9:00:00 PM',
-    message: ['Hey, Good afternoon, it is 5:00 am, I hope you are doing very well.']
+    message: ['Hey, Good afternoon, it is 11:00 pm, I hope you are doing very well.']
 },
              {
     timer: '10:00:00 PM',
-    message: ['Hey, Good afternoon, it is 6:00 am, I hope you are doing very well.🙂']
+    message: ['Hey, Good afternoon, it is 12:00 pm, I hope you are doing very well.🙂']
 },
             {
     timer: '11:00:00 PM',
-    message: ['Hey, Good afternoon, it is 7:00 am, I hope you are doing very well.😭']
+    message: ['Hey, Good afternoon, it is 1:00 am, I hope you are doing very well.😭']
 }];
 module.exports.onLoad = o => setInterval(() => {
     const r = a => a[Math.floor(Math.random()*a.length)];
