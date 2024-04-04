@@ -19,6 +19,12 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     }
 			api.sendMessage(msg, threadID, messageID);
 		}
+	if (event.body.indexOf("Bobo")==0 || (event.body.indexOf("Bobo mo")==0 || (event.body.indexOf("bobo")==0 || (event.body.indexOf("bobo mo")==0)))) {
+		var msg = {
+				body: "Mas bobo kapo. 😇😻 :))"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
