@@ -49,9 +49,16 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     }
 			api.sendMessage(msg, threadID, messageID);
 		}
+	if (event.body.indexOf("Saan na kayo")==0 || (event.body.indexOf("Saan na kayo?")==0 || (event.body.indexOf("Saan na sila")==0 || (event.body.indexOf("Saan na sila?")==0)))) {
+		var msg = {
+				body: "Malay ko senyu, lumalabas kayu, tapos ako nandito lang sa GC, tamang reply lang sa mga kalokohan niyu! 😒"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
 
 
 
+	
 
 
 
