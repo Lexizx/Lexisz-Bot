@@ -25,6 +25,37 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     }
 			api.sendMessage(msg, threadID, messageID);
 		}
+	if (event.body.indexOf("Anong pangalan mo")==0 || (event.body.indexOf("anong pangalan mo")==0 || (event.body.indexOf("anong pangalan mo?")==0 || (event.body.indexOf("Anong pangalan mo?")==0)))) {
+		var msg = {
+				body: "My name is Lexisz-BOT made by Andren kasi trip niya lang 😁😍😒😂."
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("HAHAHAHA")==0 || (event.body.indexOf("HAHAHA")==0 || (event.body.indexOf("hahaha")==0 || (event.body.indexOf("hahahaha")==0 || (event.body.indexOf("ahahahaha")==0))))) {
+		var msg = {
+				body: "Anong nakakatwawa? TF? 😒"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("Tangina")==0 || (event.body.indexOf("tangina")==0 || (event.body.indexOf("tangina mo")==0 || (event.body.indexOf("Tangina mo")==0)))) {
+		var msg = {
+				body: "Bunganga mo, Sampalin kita eh. 😒"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("Kelan ako magkakajowa")==0 || (event.body.indexOf("Kelan ako magkakajowa?")==0 || (event.body.indexOf("kelan ako magkakajowa")==0 || (event.body.indexOf("kelan ako magkakajowa?")==0)))) {
+		var msg = {
+				body: "Paalam ka muna sa parents mo boi . 😒"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+
+
+
+
+
+
+	
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
