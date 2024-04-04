@@ -28,7 +28,7 @@ module.exports.run = async function({ api, event, Users }) {
   var getHours = await global.client.getTime("hours");
   var session = `${getHours < 3 ? "midnight" : getHours < 8 ? "Early morning" : getHours < 12 ? "noon" : getHours < 17 ? "afternoon" : getHours < 23 ? "evening" : "midnight"}`
   const moment = require("moment-timezone");
-  var thu = moment.tz('Asia/dhaka').format('dddd');
+  var thu = moment.tz('Asia/Manila').format('dddd');
   if (thu == 'Sunday') thu = 'Sunday'
   if (thu == 'Monday') thu = 'Monday'
   if (thu == 'Tuesday') thu = 'Tuesday'
@@ -48,7 +48,7 @@ module.exports.run = async function({ api, event, Users }) {
   if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
-    let gifUrl = 'https://i.postimg.cc/SNQXkB0y/lv-0-20231018174834.gif';
+    let gifUrl = 'https://i.postimg.cc/HxLKH3Zp/lv-0-20240403135340.gif';
 let gifPath = __dirname + '/Nayan/join/join.gif';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
@@ -56,9 +56,8 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\n
-<------------------------------>  
-BOT CONNECTED SUCCESFUL !!! 
+    return api.sendMessage("", event.threadID, () => api.sendMessage({ body: `
+BOT CONNECTED SUCCESFUL !!!  
 `, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
