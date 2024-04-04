@@ -13,16 +13,13 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
+	
 	if (event.body.indexOf("I love you")==0 || (event.body.indexOf("i love you")==0 || (event.body.indexOf("I love u")==0 || (event.body.indexOf("I love you")==0)))) {
-		var msg = {
-				body: "Hmm... I love you too baby. 😇😻 :))"
-    }, 
-			if (event.body.indexOf("Bobo")==0 || (event.body.indexOf("bobo")==0 || (event.body.indexOf("Bobo mo")==0 || (event.body.indexOf("bobo mo")==0)))) {
-		var msg = {
-				body: "Mas bobo ka, king ina mo 😒😒:))"
-    }
-			api.sendMessage(msg, threadID, messageID);
-		}
+		var msg = {body: "Hmm... I love you too baby. 😇😻"}api.sendMessage(msg, threadID, messageID);}
+	
+	if (event.body.indexOf("bobo")==0 || (event.body.indexOf("Bobo")==0 || (event.body.indexOf("Bobo mo")==0 || (event.body.indexOf("bobo mo")==0)))) {
+		var msg = {body: "Mas bobo kapong hayuf ka.😇😻"}api.sendMessage(msg, threadID, messageID);}
+	
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
