@@ -6,7 +6,7 @@
   "language": "en",
   "notification": true,
   "approval": false,
-  "BOTNAME": "Lexisz-BOT",
+  "BOTNAME": "Lexis-BOT",
   "PREFIX": "/",
   "OPERATOR": [
     "100082589093037",
