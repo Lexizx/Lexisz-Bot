@@ -55,7 +55,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     }
 			api.sendMessage(msg, threadID, messageID);
 		}
-	if (event.body.indexOf("Sana all")==0 || (event.body.indexOf("Sana ol")==0 || (event.body.indexOf("sana all")==0 || (event.body.indexOf("sana ol")==0)))) {
+	if (event.body.indexOf("Sana all")==0 || (event.body.indexOf("Sana ol")==0 || (event.body.indexOf("sana all")==0 || (event.body.indexOf("sana oil")==0)))) {
 		var msg = {
 				body: "Anong sana all ka dyan hfmt 😒"
     }
