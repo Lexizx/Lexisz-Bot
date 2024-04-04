@@ -58,6 +58,16 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     return api.sendMessage("", event.threadID, () => api.sendMessage({ body: `
 BOT CONNECTED SUCCESFUL !!!  
+
+ANTI-UNSENT ACTIVATED.
+ANTI-OUT ACTIVATED.
+
+
+DISABLE ALL COMMANDS. ❤️ 
+SOME MIGHT REALLY WORK. 😁👍
+NOT 100% BOT.😒
+
+
 `, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
