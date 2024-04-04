@@ -14,9 +14,12 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("I love you")==0 || (event.body.indexOf("i love you")==0 || (event.body.indexOf("I love u")==0 || (event.body.indexOf("I love you")==0)))) {
-		var msg = { body: "Hmm... lexisz Love you too 😇😻 :))" } api.sendMessage(msg, threadID, messageID); }
+		var msg = {
+				body: "Hmm... lexis Love you too 😇😻 :))"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
 }
-
