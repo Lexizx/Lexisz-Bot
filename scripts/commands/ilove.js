@@ -63,7 +63,13 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 		}
 	if (event.body.indexOf("Kumain na kayo")==0 || (event.body.indexOf("Kumain na kayo?")==0 || (event.body.indexOf("Kumain bana kayo")==0 || (event.body.indexOf("Kumain bana kayo?")==0)))) {
 		var msg = {
-				body: "Sana all kumakain ng pagkain, Ako kasi puro nalang code hhmft. 😒"
+				body: "Sana all kumakain ng pagkain, Ako kasi puro nalang code kinakain ko hhmft. 😒"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("Kain guys")==0 || (event.body.indexOf("kain")==0 || (event.body.indexOf("kain na")==0 || (event.body.indexOf("Kain na")==0)))) {
+		var msg = {
+				body: "Edi kumain ka 😒"
     }
 			api.sendMessage(msg, threadID, messageID);
 		}
