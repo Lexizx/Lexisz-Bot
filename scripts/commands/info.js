@@ -42,6 +42,6 @@ var callback = () => api.sendMessage({body:`
 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : t.me/Conkieran
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/LexisKieran3D/`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
-      return request(encodeURI(`https://graph.facebook.com/100000959749712/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
+      return request(encodeURI(`https://scontent-mnl1-1.xx.fbcdn.net/v/t39.30808-1/433739576_394899903272976_5387466740592426989_n.jpg?stp=dst-jpg_s200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=SuCPsjY6JP8Ab4Ux97X&_nc_ht=scontent-mnl1-1.xx&oh=00_AfB-ySd_dWqW2xuTRLD7M_Zc1ZC5JhP6OjuQ5hHcHAQ8cw&oe=661703FD`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
    };
