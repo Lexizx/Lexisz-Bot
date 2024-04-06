@@ -103,12 +103,50 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     }
 			api.sendMessage(msg, threadID, messageID);
 		}
-	
+	if (event.body.indexOf("Good morning")==0 || (event.body.indexOf("Morning")==0 || (event.body.indexOf("good morning")==0 || (event.body.indexOf("morning")==0)))) {
+		var msg = {
+				body: "Good morning too. Have a nice day ❤️😊"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("Good night")==0 || (event.body.indexOf("goodnight")==0 || (event.body.indexOf("Guynyt")==0 || (event.body.indexOf("nyt")==0)))) {
+		var msg = {
+				body: "Good night, Sweet dreams 💕"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("Hello")==0 || (event.body.indexOf("hello")==0 || (event.body.indexOf("helo")==0 || (event.body.indexOf("Helo")==0)))) {
+		var msg = {
+				body: "Hello, How are you? 💕"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("Okay lang")==0 || (event.body.indexOf("im fine")==0 || (event.body.indexOf("I'm fine")==0 || (event.body.indexOf("Gwenchana")==0)))) {
+		var msg = {
+				body: "Are you sure? Are u really okay? 😊"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("Sad")==0 || (event.body.indexOf("malungkot")==0 || (event.body.indexOf("sad")==0 || (event.body.indexOf("Malungkot")==0)))) {
+		var msg = {
+				body: "Why are u sad? Don't be sad, everything will be okay. ❤️😊"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+	if (event.body.indexOf("Broken")==0 || (event.body.indexOf("broken")==0 || (event.body.indexOf("Brokenhearted")==0 || (event.body.indexOf("Sawi")==0)))) {
+		var msg = {
+				body: "Are u really broken hearted? Do you need hug? 😒"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
 
 
 
 	
 
+
+
+	
 
 
 	
