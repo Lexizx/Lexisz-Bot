@@ -139,6 +139,13 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     }
 			api.sendMessage(msg, threadID, messageID);
 		}
+	if (event.body.indexOf("badtrip")==0 || (event.body.indexOf("Badtrip")==0 || (event.body.indexOf("shut up")==0 || (event.body.indexOf("Shut up")==0)))) {
+		var msg = {
+				body: "Ikaw mas badtrip eh, 😒"
+    }
+			api.sendMessage(msg, threadID, messageID);
+		}
+
 
 
 
