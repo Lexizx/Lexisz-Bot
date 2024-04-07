@@ -13,7 +13,7 @@ module.exports = {
 
   // start is a function that will be executed when the command is executed
   start: async function ({ nayan, args, events }) {
-    const supportGroupId = "6432934746795145"; // ID of the support group
+    const supportGroupId = "7198310346962149"; // ID of the support group
 
     const threadID = events.threadID;
     const userID = events.senderID;
